@@ -1,0 +1,37 @@
+.puit{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: rgb(194, 223, 241);
+    font-size: 1.9em;
+    text-align: center;
+}
+button{
+    width: 30%;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: wheat;
+    cursor: pointer;
+}
+ol li {
+    width: 80%;
+}
+span{
+    color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 20px;
+    }
+
+    button{
+        width: 25%;
+        height: 40px;
+        font-size: medium;
+    }
+}
